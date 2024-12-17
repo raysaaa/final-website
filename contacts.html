@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitaBlend | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+        padding: 20px;
+    }
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 80px; 
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-info h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button.btn {
+  padding: 10px 30px;
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+  background-color: #e68a00;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.portfolio-btn {
+  padding: 12px 30px;
+  background-color: rgba(167, 162, 244, 1);
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-btn:hover {
+  background-color: #00408d;
+}
+
+
+footer {
+  margin-top: 60px;
+}
+
+  </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo-container">
+              <img src="./images/logo.png" alt="logo" class="logo">
+              <span class="logo-name">VitaBlends</span>
+            </a>
+            <div class="menu-text">
+              <a href="index.html" class="menu-link hover-underline">Home</a>
+              <a href="products.html" class="menu-link hover-underline">Products</a>
+              <a href="contacts.html" class="menu-link hover-underline active">Contact</a>
+            </div>
+          </nav>
+    </header>
+
+  <main id="contact" class="contact-page">
+    <div class="contact-info">
+      <h1>Contact Us</h1>
+      <p>If you have any questions or inquiries, feel free to reach out to us! We would love to hear from you.</p>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <div class="portfolio-section">
+      <p class="portfolio-text">
+        Want to see more of the web development work behind VitaBlends? Check out the portfolio of the developer who built this site! 
+      </p>
+      <a href="portfolio.html" class="btn portfolio-btn">View Portfolio</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3>About VitaBlends</h3>
+            <p>VitaBlends is a health-focused brand dedicated to providing the freshest, most flavorful fruit juices made from premium, handpicked ingredients. Our mission is to offer delicious, nutritious beverages that support a healthy lifestyle. At VitaBlends, we believe in the power of nature's flavors, creating blends that are as refreshing as they are nourishing. Join us in enjoying a sip of vitality with every bottle!</p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <p>Stay connected and follow us on social media:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/raizaaaaaaaaaa"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@raysaa790"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/rayysaaaa_"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop.html">Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: raizaperesores@gmail.com</p>
+            <p>Phone: +639278026832</p>
+            <p>Address: Cebu City, Cebu, Philippines</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 VitaBlends. All rights reserved.</p>
+    </div>
+</footer>   
+</body>
+</html>
+</body>
+</html>
